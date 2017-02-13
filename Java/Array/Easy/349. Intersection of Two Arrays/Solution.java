@@ -19,15 +19,12 @@ public class Solution {
             if(set.contains(num2))
                 intersect.add(num2);
         }
+        // 最後將result組出
         int[] result = new int[intersect.size()];
         int i = 0;
         for (Integer num : intersect) {
             result[i++] = num;
         }
         return result;
-    }
-    
-    public binarySearch(){
-        
     }
 }
