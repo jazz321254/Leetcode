@@ -3,7 +3,7 @@
  * 可以使用二元搜尋數將時間複雜度降到O(logn).
  * </pre>
  *
- * @author Mog
+ * @author Shawn
  */
 public class Solution {
     public int searchInsert(int[] nums, int target) {
