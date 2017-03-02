@@ -13,13 +13,12 @@ public class Solution {
         Set<Double> tmp = new HashSet<Double>();
         Double rs = new Double(0);
         while(!n1.equals(1)){
-            for(Character i: n1.toString().toCharArray()){ 
+            for(Character i: n1.toString().toCharArray())
                 rs += Math.pow((double) Character.digit(i, 10), 2);
-        }
-        if(tmp.contains(rs)) break;
-        tmp.add(rs);
-        n1 = rs.intValue();
-        rs = new Double(0);
+            if(tmp.contains(rs)) break;
+            tmp.add(rs);
+            n1 = rs.intValue();
+            rs = new Double(0);
         }
         if(n1.equals(1)) return true;
         return false;
