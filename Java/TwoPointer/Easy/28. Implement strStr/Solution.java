@@ -1,7 +1,7 @@
 /**
  * <pre> 
  * 解題思路 用雙指標 head表示開始的指標 tail表示需判斷的尾端指標
- * 時間複雜度 O(n)
+ * 時間複雜度 O(n) 也可以使用類似的邏輯用java api substring可以大大減少判斷與程式碼
  * </pre>
  *
  * @author Shawn
